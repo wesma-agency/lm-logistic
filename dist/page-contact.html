@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/swiper-bundle-8.1.5.css" />
+  <link rel="stylesheet" href="./css/lightgallery-bundle.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=96df79ce-9b3a-4c30-9be4-f10240352703&amp;lang=ru_RU"
+    type="text/javascript">
+    </script>
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <!-- HEADER -->
+
+    <div class="mobile-menu js-mobile-menu">
+      <div class="mobile-menu__wrap">
+
+        <div class="mobile-menu__overlay"></div>
+
+        <div class="mobile-menu__block">
+
+          <div class="mobile-menu__top">
+            <div class="mobile-menu__logo">
+              <img src="./img/logo.svg" alt="">
+            </div>
+
+            <div class="mobile-menu__close js-close-mobile-menu"></div>
+          </div>
+
+          <div class="mobile-menu__group">
+            <div class="mobile-menu__middle">
+              <ul class="mobile-menu__list">
+                <li class="mobile-menu__item"><a href="#">Услуги</a></li>
+                <li class="mobile-menu__item"><a href="#">Частые вопросы</a></li>
+                <li class="mobile-menu__item"><a href="#">Цены</a></li>
+                <li class="mobile-menu__item"><a href="#">Фотогалерея</a></li>
+                <li class="mobile-menu__item"><a href="#">Контакты</a></li>
+              </ul>
+            </div>
+
+            <div class="mobile-menu__bottom">
+              <a href="#" class="mobile-menu__auth">Войти</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="container">
+
+        <div class="header__wrap">
+
+          <div class="header__left">
+            <div class="header__logo">
+              <a href="#">
+                <img src="./img/logo.svg" alt="">
+              </a>
+            </div>
+
+            <nav class="header__nav main-nav">
+    <ul class="main-nav__list">
+
+        <li class="main-nav__item hover-item">
+            <a href="#" class="main-nav__link">Услуги</a>
+        </li>
+
+        <li class="main-nav__item hover-item">
+            <a href="#" class="main-nav__link">Частые вопросы</a>
+        </li>
+
+        <li class="main-nav__item hover-item">
+            <a href="#" class="main-nav__link">Цены</a>
+        </li>
+
+        <li class="main-nav__item hover-item">
+            <a href="#" class="main-nav__link">Фотогалерея</a>
+        </li>
+
+        <li class="main-nav__item hover-item">
+            <a href="#" class="main-nav__link">Контакты</a>
+        </li>
+
+    </ul>
+</nav>
+          </div>
+
+          <div class="header__right">
+            <div class="header__auth">
+              <a class="secondary-btn" href="#">Войти</a>
+            </div>
+
+            <a class="header__phone" href="tel:8 (495) 540-55-17">8 (495) 540-55-17</a>
+
+            <div class="header__burger js-burger">
+              <span></span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </header>
+
+    <!-- // HEADER -->
+
+<main class="main">
+    <div class="breadcrumbs">
+        <div class="container">
+            <ul class="breadcrumbs__list">
+                <li class="breadcrumbs__item"><a href="#">Главная</a></li>
+                <li class="breadcrumbs__item"><span>Контакты</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <section class="contact">
+        <div class="container">
+            <div class="contact__wrap">
+                <div class="contact__title title-h2">Контакты LM Logistic</div>
+
+                <div class="contact__row">
+                    <div class="contact__column">
+                        <div class="contact__block-address address-contact">
+
+                            <div class="address-contact__top">
+
+                                <div class="address-contact__list">
+
+                                    <div class="address-contact__item address-item">
+                                        <div class="address-item__icon">
+                                            <img src="./img/icon-address-1.svg" alt="">
+                                        </div>
+
+                                        <div class="address-item__group">
+                                            <div class="address-item__name title-h4">Адреса</div>
+                                            <ul class="address-item__list">
+                                                <li class="address-item__item"><span>Офис:</span> г. Москва, ул.
+                                                    Мироновская, д. 25</li>
+                                                <li class="address-item__item"><span>Склад:</span> г. Щёлково, Хотовский
+                                                    проезд, д. 3, склад 5</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="address-contact__item address-item">
+                                        <div class="address-item__icon">
+                                            <img src="./img/icon-address-2.svg" alt="">
+                                        </div>
+
+                                        <div class="address-item__group">
+                                            <div class="address-item__name title-h4">Телефоны</div>
+                                            <ul class="address-item__list">
+                                                <li class="address-item__item"><a href="tel:8 (925) 605-53-70">8 (925)
+                                                        605-53-70</a></li>
+                                                <li class="address-item__item"><a href="tel:8 (495) 540-55-17">8 (495)
+                                                        540-55-17 доб. 646</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="address-contact__item address-item">
+                                        <div class="address-item__icon">
+                                            <img src="./img/icon-address-3.svg" alt="">
+                                        </div>
+
+                                        <div class="address-item__group">
+                                            <div class="address-item__name title-h4">Email</div>
+                                            <ul class="address-item__list">
+                                                <li class="address-item__item"><a
+                                                        href="mailto:info@lmlogistic.ru">info@lmlogistic.ru</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="address-contact__bottom">
+                                <div class="address-contact__text">Вы можете связаться с нами через удобный вам
+                                    мессенджер</div>
+
+                                <div class="address-contact__social address-social">
+                                    <ul class="address-social__list">
+                                        <li class="address-social__item">
+                                            <a href="#">
+                                                <div class="address-social__icon">
+                                                    <img src="./img/icon-whatsapp.svg" alt="">
+                                                </div>
+                                            </a>
+                                        </li>
+
+                                        <li class="address-social__item">
+                                            <a href="#">
+                                                <div class="address-social__icon">
+                                                    <img src="./img/icon-telegram.svg" alt="">
+                                                </div>
+                                            </a>
+                                        </li>
+
+                                        <li class="address-social__item">
+                                            <a href="#">
+                                                <div class="address-social__icon">
+                                                    <img src="./img/icon-viber.svg" alt="">
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="contact__block-map" id="map-contact">
+
+                        </div>
+
+                        <script>
+                            let arrPoint = [
+                                {
+                                    x: 55.903529,
+                                    y: 38.035271,
+                                    title: "Склад",
+                                    text: `г. Щёлково, Хотовский проезд, д. 3, склад 5<br>
+                                    <b>Время работы</b><br>
+                                    Пн — Пт с 9:00 до 18:00<br>
+                                    Сб — Вс выходные`
+                                },
+                            ];
+
+                            ymaps.ready(initMapDelivery);
+
+                            function initMapDelivery() {
+                                let myMapDelivery = new ymaps.Map("map-contact", {
+                                    center: [55.903529, 38.035271],
+                                    zoom: 15,
+                                });
+
+                                let icons = {
+                                    pinStatic: "./img/icon-point-map.svg",
+                                    pinHover: "./img/icon-point-map-hover.svg",
+                                }
+
+                                arrPoint.forEach(element => {
+                                    let myPlacemark = new ymaps.Placemark([element.x, element.y], {
+                                        balloonContentHeader: `<div class="map-ballon-title">${element.title}</div>`,
+                                        balloonContentBody: `<div class="map-ballon-text">${element.text}</div>`
+                                    }, {
+                                        hideIconOnBalloonOpen: false,
+                                        iconLayout: 'default#imageWithContent',
+                                        iconImageHref: icons.pinStatic,
+                                        iconImageSize: [25, 32],
+                                        iconImageOffset: [-24, -24],
+                                        iconContentOffset: [15, 15],
+                                        balloonOffset: [60, 0],
+                                    });
+
+                                    myMapDelivery.geoObjects.add(myPlacemark);
+
+                                    myMapDelivery.balloon._balloon.options.set("panelMaxMapArea", 0)
+
+                                    myPlacemark.events.add('mouseleave', function (e) {
+                                        e.get('target').options.set('iconImageHref', icons.pinStatic);
+                                    });
+
+                                    myPlacemark.events.add('mouseenter', function (e) {
+                                        e.get('target').options.set('iconImageHref', icons.pinHover);
+                                    });
+                                });
+                            }
+                        </script>
+
+                    </div>
+
+                    <div class="contact__column">
+                        <form class="contact__form from-contact">
+
+                            <div class="from-contact__wrap">
+
+                                <div class="from-contact__title title-h3">Остались вопросы?<br> Напишите, мы поможем
+                                </div>
+
+                                <div class="from-contact__list">
+                                    <div class="from-contact__item wrap-input">
+                                        <div class="wrap-input__name">Имя</div>
+                                        <input type="text" placeholder="Иван Петрович">
+                                    </div>
+
+                                    <div class="from-contact__item wrap-input">
+                                        <div class="wrap-input__name">Телефон</div>
+                                        <input type="tel" placeholder="8 (___) ___-__-__">
+                                    </div>
+
+                                    <div class="from-contact__item wrap-input">
+                                        <div class="wrap-input__name">Email</div>
+                                        <input type="text" placeholder="Example@mail.ru">
+                                    </div>
+
+                                    <div class="from-contact__item wrap-input js-max-symbol" data-max-symbol="1000">
+                                        <div class="wrap-input__name">Комментарий</div>
+                                        <textarea class="js-max-symbol-field"
+                                            placeholder="Оставьте вопрос или комментарий"></textarea>
+                                        <div class="wrap-input__max-symbol">
+                                            <span class="js-max-symbol-value">0</span>
+                                            /
+                                            <span>1000</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <label class="from-contact__check from-check">
+                                    <input type="checkbox">
+                                    <span class="from-check__checkmark"></span>
+                                    <span class="from-check__text">Нажимая кнопку «Отправить» я соглашаюсь на обработку
+                                        персональных данных в соотвествии с <a href="#">Условиями</a> </span>
+                                </label>
+
+                                <button type="submit" class="from-contact__btn main-btn">Отправить</button>
+
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- FOOTER -->
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__wrap">
+      <div class="footer__left">
+
+        <div class="footer__logo">
+          <a href="#">
+            <img src="./img/logo.svg" alt="">
+          </a>
+        </div>
+
+        <div class="footer__copy">Copyright © 2022. Все права защищены</div>
+
+        <a href="#" class="footer__policy">Политика обработки персональных данных</a>
+
+      </div>
+
+      <div class="footer__right">
+        <div class="footer__group">
+          <div class="footer__name title-h4">Телефон</div>
+
+          <a href="tel:8 (495) 540-55-17" class="footer__phone">8 (495) 540-55-17</a>
+        </div>
+
+        <div class="footer__group">
+          <div class="footer__name title-h4">Почта</div>
+
+          <a href="mailto:info@lmlogistic.ru" class="footer__email">info@lmlogistic.ru</a>
+        </div>
+
+        <div class="footer__group">
+          <div class="footer__name title-h4">Мессенджеры</div>
+
+          <div class="footer__social-list">
+            <div class="footer__social-item">
+              <a href="#">Whats App</a>
+            </div>
+
+            <div class="footer__social-item">
+              <a href="#">Телеграмм</a>
+            </div>
+
+            <div class="footer__social-item">
+              <a href="#">Viber</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+<div class="popup-general modal" id="popup-coop">
+
+  <div class="popup-general__center">
+
+    <div class="popup-general__scroll">
+
+      <div class="popup-general__body">
+
+        <div class="popup-general__group-title">
+          <div class="popup-general__title title-h3">Начать сотрудничество</div>
+
+          <div class="popup-general__close js-modal-close"></div>
+        </div>
+
+        <div class="popup-general__wrap">
+
+          <div class="popup-general__group">
+
+            <form action="#" class="popup-general__form form-popup-general">
+              <div class="form-popup-general__wrap">
+
+                <div class="form-popup-general__list">
+                  <div class="form-popup-general__item wrap-input">
+                    <div class="wrap-input__name">Имя</div>
+                    <input type="text" placeholder="Иван Петрович">
+                  </div>
+
+                  <div class="form-popup-general__item wrap-input">
+                    <div class="wrap-input__name">Телефон</div>
+                    <input type="tel" placeholder="8 (___) ___-__-__">
+                  </div>
+
+                  <div class="form-popup-general__item wrap-input">
+                    <div class="wrap-input__name">Email</div>
+                    <input type="text" placeholder="Example@mail.ru">
+                  </div>
+                </div>
+
+                <label class="form-popup-general__check from-check">
+                  <input type="checkbox">
+                  <span class="from-check__checkmark"></span>
+                  <span class="from-check__text">Нажимая кнопку «Отправить заявку» я соглашаюсь на обработку
+                    персональных
+                    данных в соотвествии с <a href="#">Условиями</a> </span>
+                </label>
+
+                <button type="submit" class="form-popup-general__btn main-btn">Отправить заявку</button>
+
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<div class="popup-general modal" id="popup-coop-end">
+
+  <div class="popup-general__center">
+
+    <div class="popup-general__scroll">
+
+      <div class="popup-general__body">
+
+        <div class="popup-general__group-title">
+          <div class="popup-general__title title-h3">Начать сотрудничество</div>
+
+          <div class="popup-general__close js-modal-close"></div>
+        </div>
+
+        <div class="popup-general__wrap">
+
+          <div class="popup-general__group">
+            <div class="popup-general__result popup-result">
+              <div class="popup-result__icon">
+                <img src="./img/icon-popup-result.svg" alt="">
+              </div>
+
+              <div class="popup-result__text">
+                Ваша заявка отправлена!<br>
+                Мы пришлем письмо на вашу почту example@mail.ru
+              </div>
+
+              <a href="#" class="popup-result__btn main-btn">Понятно</a>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<!-- // FOOTER -->
+
+</div>
+
+
+<script src="./js/swiper-bundle-8.1.5.js"></script>
+<script src="./js/lightgallery.min.js"></script>
+<script src="./js/lg-video.min.js"></script>
+<script src="./js/inputmask.min.js"></script>
+<script src="./js/script.js"></script>
+</body>
+
+</html>

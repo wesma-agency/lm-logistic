@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/swiper-bundle-8.1.5.css" />
+  <link rel="stylesheet" href="./css/lightgallery-bundle.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=96df79ce-9b3a-4c30-9be4-f10240352703&amp;lang=ru_RU"
+    type="text/javascript">
+    </script>
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <!-- HEADER -->
+
+    <div class="mobile-menu js-mobile-menu">
+      <div class="mobile-menu__wrap">
+
+        <div class="mobile-menu__overlay"></div>
+
+        <div class="mobile-menu__block">
+
+          <div class="mobile-menu__top">
+            <div class="mobile-menu__logo">
+              <img src="./img/logo.svg" alt="">
+            </div>
+
+            <div class="mobile-menu__close js-close-mobile-menu"></div>
+          </div>
+
+          <div class="mobile-menu__group">
+            <div class="mobile-menu__middle">
+              <ul class="mobile-menu__list">
+                <li class="mobile-menu__item"><a href="#">Услуги</a></li>
+                <li class="mobile-menu__item"><a href="#">Частые вопросы</a></li>
+                <li class="mobile-menu__item"><a href="#">Цены</a></li>
+                <li class="mobile-menu__item"><a href="#">Фотогалерея</a></li>
+                <li class="mobile-menu__item"><a href="#">Контакты</a></li>
+              </ul>
+            </div>
+
+            <div class="mobile-menu__bottom">
+              <a href="#" class="mobile-menu__auth">Войти</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="container">
+
+        <div class="header__wrap">
+
+          <div class="header__left">
+            <div class="header__logo">
+              <a href="#">
+                <img src="./img/logo.svg" alt="">
+              </a>
+            </div>
+
+            <nav class="header__nav main-nav">
+    <ul class="main-nav__list">
+
+        <li class="main-nav__item hover-item">
+            <a href="#" class="main-nav__link">Услуги</a>
+        </li>
+
+        <li class="main-nav__item hover-item">
+            <a href="#" class="main-nav__link">Частые вопросы</a>
+        </li>
+
+        <li class="main-nav__item hover-item">
+            <a href="#" class="main-nav__link">Цены</a>
+        </li>
+
+        <li class="main-nav__item hover-item">
+            <a href="#" class="main-nav__link">Фотогалерея</a>
+        </li>
+
+        <li class="main-nav__item hover-item">
+            <a href="#" class="main-nav__link">Контакты</a>
+        </li>
+
+    </ul>
+</nav>
+          </div>
+
+          <div class="header__right">
+            <div class="header__auth">
+              <a class="secondary-btn" href="#">Войти</a>
+            </div>
+
+            <a class="header__phone" href="tel:8 (495) 540-55-17">8 (495) 540-55-17</a>
+
+            <div class="header__burger js-burger">
+              <span></span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </header>
+
+    <!-- // HEADER -->
+
+<main class="main">
+    <div class="breadcrumbs">
+        <div class="container">
+            <ul class="breadcrumbs__list">
+                <li class="breadcrumbs__item"><a href="#">Главная</a></li>
+                <li class="breadcrumbs__item"><span>Цены</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <section class="price --white">
+        <div class="container">
+            <div class="price__wrap">
+                <div class="price__title title-h2">Цены</div>
+
+                <div class="price__tab tab-price js-tab-container">
+
+                    <div class="tab-price__controls tab-controls">
+                        <div class="tab-price__btn tab-controls-item js-tab-control active" data-tab-item="tab-1">
+                            Хранение</div>
+                        <div class="tab-price__btn tab-controls-item js-tab-control" data-tab-item="tab-2">Сборка заказа
+                        </div>
+                        <div class="tab-price__btn tab-controls-item js-tab-control" data-tab-item="tab-3">Доставка
+                        </div>
+                    </div>
+
+                    <div class="tab-price__contents tab-contents">
+
+                        <div class="tab-price__contents-item tab-contents-item active js-tab-content"
+                            data-tab-content="tab-1">
+                            <div class="tab-price__table table-price">
+
+                                <div class="table-price__caption">
+                                    <div class="table-price__title">Услуга</div>
+                                    <div class="table-price__title">Единица измерения</div>
+                                    <div class="table-price__title">Цена</div>
+                                </div>
+
+                                <div class="table-price__list">
+                                    <div class="table-price__item">
+                                        <div class="table-price__field" data-sign="ячейка / сутки">Хранение</div>
+                                        <div class="table-price__field">ячейка / сутки</div>
+                                        <div class="table-price__field">13 ₽</div>
+                                    </div>
+
+                                    <div class="table-price__item">
+                                        <div class="table-price__field" data-sign="паллет">Приемка / Отгрузка
+                                            механическая название услуги в
+                                            две строки,
+                                            название услуги в две строки</div>
+                                        <div class="table-price__field">паллет</div>
+                                        <div class="table-price__field">40 ₽</div>
+                                    </div>
+
+                                    <div class="table-price__item">
+                                        <div class="table-price__field" data-sign="паллет">Приемка / Отгрузка ручная
+                                        </div>
+                                        <div class="table-price__field">паллет</div>
+                                        <div class="table-price__field">8 ₽</div>
+                                    </div>
+
+                                    <div class="table-price__item">
+                                        <div class="table-price__field" data-sign="комплект">Подготовка документов</div>
+                                        <div class="table-price__field">комплект</div>
+                                        <div class="table-price__field">70 ₽</div>
+                                    </div>
+
+                                    <div class="table-price__item">
+                                        <div class="table-price__field" data-sign="шт.">Стикеровка</div>
+                                        <div class="table-price__field">шт.</div>
+                                        <div class="table-price__field">7 ₽</div>
+                                    </div>
+
+                                    <div class="table-price__item">
+                                        <div class="table-price__field" data-sign="шт.">Термоупаковка</div>
+                                        <div class="table-price__field">шт.</div>
+                                        <div class="table-price__field">10 ₽</div>
+                                    </div>
+
+                                    <div class="table-price__item">
+                                        <div class="table-price__field" data-sign="паллет">Снабжение паллеты
+                                            информационным листом</div>
+                                        <div class="table-price__field">паллет</div>
+                                        <div class="table-price__field">6 ₽</div>
+                                    </div>
+
+                                    <div class="table-price__item">
+                                        <div class="table-price__field" data-sign="комплект / сутки">Хранение
+                                            реклмационных товаров</div>
+                                        <div class="table-price__field">комплект / сутки</div>
+                                        <div class="table-price__field">150 ₽</div>
+                                    </div>
+
+                                    <div class="table-price__item">
+                                        <div class="table-price__field" data-sign="комплект / сутки">Хранение готовых
+                                            заказов</div>
+                                        <div class="table-price__field">комплект / сутки</div>
+                                        <div class="table-price__field">150 ₽</div>
+                                    </div>
+
+                                    <div class="table-price__item">
+                                        <div class="table-price__field" data-sign="поддон">Предоставление поддонов</div>
+                                        <div class="table-price__field">поддон</div>
+                                        <div class="table-price__field">250 ₽</div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="tab-price__contents-item tab-contents-item js-tab-content" data-tab-content="tab-2">
+                            <div class="tab-price__table table-price">
+
+                                <div class="table-price__caption">
+                                    <div class="table-price__title">Услуга</div>
+                                    <div class="table-price__title">Единица измерения</div>
+                                    <div class="table-price__title">Цена</div>
+                                </div>
+
+                                <div class="table-price__list">
+                                    <div class="table-price__item">
+                                        <div class="table-price__field" data-sign="ячейка / сутки">Хранение</div>
+                                        <div class="table-price__field">ячейка / сутки</div>
+                                        <div class="table-price__field">13 ₽</div>
+                                    </div>
+
+                                    <div class="table-price__item">
+                                        <div class="table-price__field" data-sign="паллет">Приемка / Отгрузка
+                                            механическая название услуги в
+                                            две строки,
+                                            название услуги в две строки</div>
+                                        <div class="table-price__field">паллет</div>
+                                        <div class="table-price__field">40 ₽</div>
+                                    </div>
+
+                                    <div class="table-price__item">
+                                        <div class="table-price__field" data-sign="паллет">Приемка / Отгрузка ручная
+                                        </div>
+                                        <div class="table-price__field">паллет</div>
+                                        <div class="table-price__field">8 ₽</div>
+                                    </div>
+
+                                    <div class="table-price__item">
+                                        <div class="table-price__field" data-sign="комплект">Подготовка документов</div>
+                                        <div class="table-price__field">комплект</div>
+                                        <div class="table-price__field">70 ₽</div>
+                                    </div>
+
+                                    <div class="table-price__item">
+                                        <div class="table-price__field" data-sign="шт.">Стикеровка</div>
+                                        <div class="table-price__field">шт.</div>
+                                        <div class="table-price__field">7 ₽</div>
+                                    </div>
+
+                                    <div class="table-price__item">
+                                        <div class="table-price__field" data-sign="комплект / сутки">Хранение готовых
+                                            заказов</div>
+                                        <div class="table-price__field">комплект / сутки</div>
+                                        <div class="table-price__field">150 ₽</div>
+                                    </div>
+
+                                    <div class="table-price__item">
+                                        <div class="table-price__field" data-sign="поддон">Предоставление поддонов</div>
+                                        <div class="table-price__field">поддон</div>
+                                        <div class="table-price__field">250 ₽</div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="tab-price__contents-item tab-contents-item js-tab-content" data-tab-content="tab-3">
+                            <div class="tab-price__table table-price">
+
+                                <div class="table-price__caption">
+                                    <div class="table-price__title">Услуга</div>
+                                    <div class="table-price__title">Единица измерения</div>
+                                    <div class="table-price__title">Цена</div>
+                                </div>
+
+                                <div class="table-price__list">
+                                    <div class="table-price__item">
+                                        <div class="table-price__field" data-sign="ячейка / сутки">Хранение</div>
+                                        <div class="table-price__field">ячейка / сутки</div>
+                                        <div class="table-price__field">13 ₽</div>
+                                    </div>
+
+                                    <div class="table-price__item">
+                                        <div class="table-price__field" data-sign="паллет">Приемка / Отгрузка
+                                            механическая название услуги в
+                                            две строки,
+                                            название услуги в две строки</div>
+                                        <div class="table-price__field">паллет</div>
+                                        <div class="table-price__field">40 ₽</div>
+                                    </div>
+
+                                    <div class="table-price__item">
+                                        <div class="table-price__field" data-sign="паллет">Приемка / Отгрузка ручная
+                                        </div>
+                                        <div class="table-price__field">паллет</div>
+                                        <div class="table-price__field">8 ₽</div>
+                                    </div>
+
+                                    <div class="table-price__item">
+                                        <div class="table-price__field" data-sign="комплект">Подготовка документов</div>
+                                        <div class="table-price__field">комплект</div>
+                                        <div class="table-price__field">70 ₽</div>
+                                    </div>
+
+                                    <div class="table-price__item">
+                                        <div class="table-price__field" data-sign="шт.">Стикеровка</div>
+                                        <div class="table-price__field">шт.</div>
+                                        <div class="table-price__field">7 ₽</div>
+                                    </div>
+
+                                    <div class="table-price__item">
+                                        <div class="table-price__field" data-sign="шт.">Термоупаковка</div>
+                                        <div class="table-price__field">шт.</div>
+                                        <div class="table-price__field">10 ₽</div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- FOOTER -->
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__wrap">
+      <div class="footer__left">
+
+        <div class="footer__logo">
+          <a href="#">
+            <img src="./img/logo.svg" alt="">
+          </a>
+        </div>
+
+        <div class="footer__copy">Copyright © 2022. Все права защищены</div>
+
+        <a href="#" class="footer__policy">Политика обработки персональных данных</a>
+
+      </div>
+
+      <div class="footer__right">
+        <div class="footer__group">
+          <div class="footer__name title-h4">Телефон</div>
+
+          <a href="tel:8 (495) 540-55-17" class="footer__phone">8 (495) 540-55-17</a>
+        </div>
+
+        <div class="footer__group">
+          <div class="footer__name title-h4">Почта</div>
+
+          <a href="mailto:info@lmlogistic.ru" class="footer__email">info@lmlogistic.ru</a>
+        </div>
+
+        <div class="footer__group">
+          <div class="footer__name title-h4">Мессенджеры</div>
+
+          <div class="footer__social-list">
+            <div class="footer__social-item">
+              <a href="#">Whats App</a>
+            </div>
+
+            <div class="footer__social-item">
+              <a href="#">Телеграмм</a>
+            </div>
+
+            <div class="footer__social-item">
+              <a href="#">Viber</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+<div class="popup-general modal" id="popup-coop">
+
+  <div class="popup-general__center">
+
+    <div class="popup-general__scroll">
+
+      <div class="popup-general__body">
+
+        <div class="popup-general__group-title">
+          <div class="popup-general__title title-h3">Начать сотрудничество</div>
+
+          <div class="popup-general__close js-modal-close"></div>
+        </div>
+
+        <div class="popup-general__wrap">
+
+          <div class="popup-general__group">
+
+            <form action="#" class="popup-general__form form-popup-general">
+              <div class="form-popup-general__wrap">
+
+                <div class="form-popup-general__list">
+                  <div class="form-popup-general__item wrap-input">
+                    <div class="wrap-input__name">Имя</div>
+                    <input type="text" placeholder="Иван Петрович">
+                  </div>
+
+                  <div class="form-popup-general__item wrap-input">
+                    <div class="wrap-input__name">Телефон</div>
+                    <input type="tel" placeholder="8 (___) ___-__-__">
+                  </div>
+
+                  <div class="form-popup-general__item wrap-input">
+                    <div class="wrap-input__name">Email</div>
+                    <input type="text" placeholder="Example@mail.ru">
+                  </div>
+                </div>
+
+                <label class="form-popup-general__check from-check">
+                  <input type="checkbox">
+                  <span class="from-check__checkmark"></span>
+                  <span class="from-check__text">Нажимая кнопку «Отправить заявку» я соглашаюсь на обработку
+                    персональных
+                    данных в соотвествии с <a href="#">Условиями</a> </span>
+                </label>
+
+                <button type="submit" class="form-popup-general__btn main-btn">Отправить заявку</button>
+
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<div class="popup-general modal" id="popup-coop-end">
+
+  <div class="popup-general__center">
+
+    <div class="popup-general__scroll">
+
+      <div class="popup-general__body">
+
+        <div class="popup-general__group-title">
+          <div class="popup-general__title title-h3">Начать сотрудничество</div>
+
+          <div class="popup-general__close js-modal-close"></div>
+        </div>
+
+        <div class="popup-general__wrap">
+
+          <div class="popup-general__group">
+            <div class="popup-general__result popup-result">
+              <div class="popup-result__icon">
+                <img src="./img/icon-popup-result.svg" alt="">
+              </div>
+
+              <div class="popup-result__text">
+                Ваша заявка отправлена!<br>
+                Мы пришлем письмо на вашу почту example@mail.ru
+              </div>
+
+              <a href="#" class="popup-result__btn main-btn">Понятно</a>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<!-- // FOOTER -->
+
+</div>
+
+
+<script src="./js/swiper-bundle-8.1.5.js"></script>
+<script src="./js/lightgallery.min.js"></script>
+<script src="./js/lg-video.min.js"></script>
+<script src="./js/inputmask.min.js"></script>
+<script src="./js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+@@include("../components/_header.html")
+
+<main class="main">
+
+    <div class="page-navigation">
+        <div class="container">
+            <div class="page-navigation__wrap">
+                <div class="page-navigation__row">
+                    <div class="page-navigation__column">
+                        <div class="page-navigation__title title-h2">Страницы</div>
+
+                        <div class="page-navigation__list">
+                            <div class="page-navigation__item">
+                                <a href="./index.html" class="title-h4">Главная</a>
+                            </div>
+
+                            <div class="page-navigation__item">
+                                <a href="./index-login.html" class="title-h4">Главная пользователь авторизован</a>
+                            </div>
+
+                            <div class="page-navigation__item">
+                                <a href="./page-contact.html" class="title-h4">Контакты</a>
+                            </div>
+
+                            <div class="page-navigation__item">
+                                <a href="./page-contact-form-err.html" class="title-h4">Контакты ошибки в форме</a>
+                            </div>
+
+                            <div class="page-navigation__item">
+                                <a href="./page-faq.html" class="title-h4">Частые вопросы</a>
+                            </div>
+
+                            <div class="page-navigation__item">
+                                <a href="./page-service.html" class="title-h4">Услуги LM Logistic</a>
+                            </div>
+
+                            <div class="page-navigation__item">
+                                <a href="./page-404.html" class="title-h4">404</a>
+                            </div>
+
+                            <div class="page-navigation__item">
+                                <a href="./page-price.html" class="title-h4">Цены</a>
+                            </div>
+
+                            <div class="page-navigation__item">
+                                <a href="./page-gallery.html" class="title-h4">Фотогалерея</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="page-navigation__column">
+                        <div class="page-navigation__title title-h2">Попапы</div>
+
+                        <div class="page-navigation__list">
+                            <div class="page-navigation__item">
+                                <a href="#popup-coop" data-popup="popup-coop" class="title-h4 js-modal-show">Начать
+                                    сотрудничество</a>
+                            </div>
+
+                            <div class="page-navigation__item">
+                                <a href="#popup-coop-end" data-popup="popup-coop-end"
+                                    class="title-h4 js-modal-show">Начать сотрудничество отправлен</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="page-navigation__column">
+                        <div class="page-navigation__title title-h2">Рассылки</div>
+
+                        <div class="page-navigation__list">
+                            <div class="page-navigation__item">
+                                <a class="title-h4" href="./page-letter-1.html">Рассылка 1</a>
+                            </div>
+
+                            <div class="page-navigation__item">
+                                <a class="title-h4" href="./page-letter-2.html">Рассылка 2</a>
+                            </div>
+
+                            <div class="page-navigation__item">
+                                <a class="title-h4" href="./page-letter-3.html">Рассылка 3</a>
+                            </div>
+
+                            <div class="page-navigation__item">
+                                <a class="title-h4" href="./page-letter-4.html">Рассылка 4</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .page-navigation__wrap {
+            padding: 50px 0;
+        }
+
+        .page-navigation__row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+
+        .page-navigation__title {
+            margin-bottom: 40px;
+        }
+
+        .page-navigation__item:not(:last-child) {
+            margin-bottom: 20px;
+        }
+    </style>
+
+</main>
+
+@@include("../components/_footer.html")

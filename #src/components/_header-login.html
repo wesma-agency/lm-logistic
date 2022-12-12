@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/swiper-bundle-8.1.5.css" />
+  <link rel="stylesheet" href="./css/lightgallery-bundle.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=96df79ce-9b3a-4c30-9be4-f10240352703&amp;lang=ru_RU"
+    type="text/javascript">
+    </script>
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <!-- HEADER -->
+
+    <div class="mobile-menu js-mobile-menu">
+      <div class="mobile-menu__wrap">
+
+        <div class="mobile-menu__overlay"></div>
+
+        <div class="mobile-menu__block">
+
+          <div class="mobile-menu__top">
+            <div class="mobile-menu__logo">
+              <img src="./img/logo.svg" alt="">
+            </div>
+
+            <div class="mobile-menu__close js-close-mobile-menu"></div>
+          </div>
+
+          <div class="mobile-menu__group">
+            <div class="mobile-menu__middle">
+              <ul class="mobile-menu__list">
+                <li class="mobile-menu__item"><a href="#">Услуги</a></li>
+                <li class="mobile-menu__item"><a href="#">Частые вопросы</a></li>
+                <li class="mobile-menu__item"><a href="#">Цены</a></li>
+                <li class="mobile-menu__item"><a href="#">Фотогалерея</a></li>
+                <li class="mobile-menu__item"><a href="#">Контакты</a></li>
+              </ul>
+            </div>
+
+            <div class="mobile-menu__bottom">
+              <a href="#" class="mobile-menu__auth">Привет, Константин</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="container">
+
+        <div class="header__wrap">
+
+          <div class="header__left">
+            <div class="header__logo">
+              <a href="#">
+                <img src="./img/logo.svg" alt="">
+              </a>
+            </div>
+
+            @@include("_main-menu.html")
+          </div>
+
+          <div class="header__right">
+            <div class="header__auth">
+              <a class="secondary-btn" href="#">Привет, Константин</a>
+            </div>
+
+            <a class="header__phone" href="tel:8 (495) 540-55-17">8 (495) 540-55-17</a>
+
+            <div class="header__burger js-burger">
+              <span></span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </header>
+
+    <!-- // HEADER -->
